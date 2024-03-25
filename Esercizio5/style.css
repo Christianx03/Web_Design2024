@@ -1,0 +1,19 @@
+
+/* Media query per testo verde nell'header */
+@media screen and (max-width: 600px) {
+    header h1 {
+        color: green;
+    }
+}
+
+
+img {
+    width: 100%;
+}
+
+/* Media query per ridimensionamento delle immagini nel main */
+@media screen and (max-width: 800px) {
+    main img {
+        width: 49%;
+    }
+}
