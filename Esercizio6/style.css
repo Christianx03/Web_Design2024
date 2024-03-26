@@ -1,8 +1,7 @@
-/* Stile per il div con posizione "absolute" */
     .absolute {
         position: absolute;
         top: 30px;
-        right: 30px; /* 30px dal bordo destro */
+        right: 30px; 
         width: 100px;
         height: 100px;
         background-color: red;
@@ -10,11 +9,10 @@
         text-align: center;
     }
 
-    /* Stile per il div con posizione "fixed" */
     .fixed {
         position: fixed;
-        bottom: 20px; /* 20px dal bordo inferiore */
-        right: 20px; /* 20px dal bordo destro */
+        bottom: 20px; 
+        right: 20px;
         width: 100px;
         height: 100px;
         background-color: blue;
@@ -22,9 +20,8 @@
         text-align: center;
     }
 
-    /* Stile per il contenitore e il div con posizione "sticky" */
     .container {
-        width: 200px;
+        width: 200px;                       
         position: relative;
     }
 
@@ -36,6 +33,5 @@
         height: 100px;
         margin-top: 20px;
         margin-bottom: 20px;
-        color:#ffffff;
-        text-align: center;
+        
     }
