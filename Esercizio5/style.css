@@ -1,8 +1,8 @@
 
 /* Media query per testo verde nell'header */
 @media screen and (max-width: 600px) {
-    header h1 {
-        color: green;
+     h1 {
+        color: #008000;
     }
 }
 
@@ -13,7 +13,7 @@ img {
 
 /* Media query per ridimensionamento delle immagini nel main */
 @media screen and (max-width: 800px) {
-    main img {
+     img {
         width: 49%;
     }
 }
