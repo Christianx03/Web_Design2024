@@ -16,7 +16,11 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: changeColor 1s infinite alternate; 
+   
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes changeColor {
