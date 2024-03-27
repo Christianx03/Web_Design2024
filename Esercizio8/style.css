@@ -1,0 +1,100 @@
+*{
+    font-family:'Marvel', 'Times New Roman', Times, serif;
+}
+
+    header {
+      text-align: center;
+      background-image : url("img/header.jpg");
+      padding: 20px 0;
+      color:#ffff;
+      background-repeat: no-repeat;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2, h3 {
+      color: #000000;
+    }
+
+
+    #img-div {
+      text-align: center;
+      margin-top: 20px;
+    }
+    #image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #img-caption {
+      margin-top: 10px;
+      color: #666;
+    }
+
+    #tribute-info {
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    #tribute-link {
+      display: block;
+      margin-top: 20px;
+      text-align: left;
+      color: #007bff;
+    }
+
+    
+.container .spiderman {
+    width: 150px;
+    vertical-align: top;
+    margin-top: -200px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  
+  @keyframes animation {
+    from {
+      transform: translateY(-40px);
+    }
+  
+    to {
+      transform: translateY(70px);
+    }
+  }
+
+  /* Stile per griglia artista3 " */
+
+.parent-grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 450 450 450;
+    justify-content: center;
+}
+
+.parent-grid figure {
+    margin: 6px 6px 20px 6px;
+}
+
+.parent-grid img {
+    width: 430px;
+    height: 457px;
+    object-fit:contain;
+    border-radius: 80%;
+}
+
+video{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
